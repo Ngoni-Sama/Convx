@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convx — Just listen.</title>
+  <meta name="description" content="An open-source Android music player with a calm, glass-inspired interface, synced lyrics, Automix and Listen Together.">
+  <meta name="theme-color" content="#07090E">
+  <meta property="og:title" content="Convx — Just listen.">
+  <meta property="og:description" content="An open-source Android music player with a calm, glass-inspired interface.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://ngoni-sama.github.io/Convx/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a class="nav-logo" href="#top" aria-label="Convx home">
+      <img class="on-dark" src="img/logo.svg" alt="" width="138" height="30">
+      <img class="on-light" src="img/logo-light.svg" alt="" width="138" height="30">
+    </a>
+    <nav aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#screens">Screens</a>
+      <a href="#logo">Logo</a>
+      <a class="nav-cta" href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Free and open source for Android</p>
+        <h1>Just listen.</h1>
+        <p class="lede">An open-source Android music player with a calm, glass-inspired interface. Discovery, playback, lyrics and your library, together in one app.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://github.com/cosmictaserdev-creator/Convx/releases/tag/2.0.4-nightly">Download Nightly 2.0.4</a>
+          <a class="btn btn-ghost" href="https://github.com/Ngoni-Sama/Convx">View source</a>
+        </div>
+        <ul class="facts">
+          <li>Android 8.0+</li>
+          <li>GPL-3.0</li>
+          <li>Kotlin, Compose, Media3</li>
+        </ul>
+      </div>
+      <div class="hero-phones">
+        <img class="phone phone-back" src="img/home.webp" alt="Convx home screen with a daily discover card and playlists" width="540" height="1109">
+        <img class="phone phone-front" src="img/artist.webp" alt="Convx artist page with a large portrait and play controls" width="540" height="1109">
+      </div>
+    </section>
+
+    <section id="features" aria-labelledby="features-title">
+      <div class="section-head">
+        <h2 id="features-title">Everything around the music, nothing in its way</h2>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Playback</h3>
+          <ul>
+            <li>Stream through Convx's InnerTube client</li>
+            <li>Background, lock-screen and Android Auto controls</li>
+            <li>Offline downloads and a local library</li>
+            <li>Queues, playlists, sleep timer, speed and equalizer</li>
+            <li>Crossfade, Automix and DJ-style transitions</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Lyrics and artwork</h3>
+          <ul>
+            <li>Synchronized lyrics with word-level highlighting</li>
+            <li>Lyrics from multiple providers</li>
+            <li>Animated artwork and album-inspired colors</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Library and integrations</h3>
+          <ul>
+            <li>Local music and SMB or WebDAV network shares</li>
+            <li>Playlist import from Spotify</li>
+            <li>Discord Rich Presence and Last.fm</li>
+            <li>Music recognition and Listen Together</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Interface</h3>
+          <ul>
+            <li>Frosted, refractive glass menus and sheets</li>
+            <li>Cupertino-style controls with spring motion</li>
+            <li>Adaptive themes for phones and wider screens</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="screens" aria-labelledby="screens-title">
+      <div class="section-head">
+        <h2 id="screens-title">See it running</h2>
+        <p>Real screens from the app. Colors follow whatever is playing.</p>
+      </div>
+      <ul class="gallery" tabindex="0" aria-label="App screenshots, scrollable">
+        <li><figure><img loading="lazy" src="img/now-playing.webp" alt="Now Playing screen with progress, playback controls and audio quality badge" width="540" height="1109"><figcaption>Now Playing</figcaption></figure></li>
+        <li><figure><img loading="lazy" src="img/home.webp" alt="Home screen with personalized picks" width="540" height="1109"><figcaption>Home</figcaption></figure></li>
+        <li><figure><img loading="lazy" src="img/library.webp" alt="Library screen with liked, downloaded and cached collections" width="540" height="1109"><figcaption>Library</figcaption></figure></li>
+        <li><figure><img loading="lazy" src="img/artist.webp" alt="Artist page tinted to match the artist's portrait" width="540" height="1109"><figcaption>Artist</figcaption></figure></li>
+        <li><figure><img loading="lazy" src="img/explore.webp" alt="Explore screen with genre and mood shortcuts" width="540" height="1109"><figcaption>Explore</figcaption></figure></li>
+      </ul>
+    </section>
+
+    <section id="logo" class="logo-section" aria-labelledby="logo-title">
+      <div class="section-head">
+        <h2 id="logo-title">One mark, three ideas</h2>
+        <p>A C, a V and a play button are the same shape. The ring is the C. The V turns on its side to close it, and points forward like play.</p>
+      </div>
+      <div class="logo-row">
+        <figure class="logo-step">
+          <img src="img/mark-c.svg" alt="The C ring on its own" width="100" height="100">
+          <figcaption>C for the ring</figcaption>
+        </figure>
+        <figure class="logo-step">
+          <img src="img/mark-v.svg" alt="A V turned on its side" width="100" height="100">
+          <figcaption>V turned to play</figcaption>
+        </figure>
+        <figure class="logo-step logo-final">
+          <img src="img/mark.svg" alt="The finished Convx mark: the ring and the sideways V together" width="100" height="100">
+          <figcaption>Convx</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="download" class="download" aria-labelledby="download-title">
+      <img src="img/mark.svg" alt="" width="72" height="72">
+      <h2 id="download-title">Get Convx</h2>
+      <p>Use the latest Nightly from GitHub. The current Stable release is outdated and not working, and a refreshed one will follow once the remaining issues are fixed.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://github.com/cosmictaserdev-creator/Convx/releases/tag/2.0.4-nightly">Download Nightly 2.0.4</a>
+        <a class="btn btn-ghost" href="https://github.com/cosmictaserdev-creator/Convx/releases">All releases</a>
+      </div>
+      <p class="note">Nightlies are pre-release builds and may be unstable. On a 32-bit-only phone, choose the <code>arm32</code> APK from the same release. Install APKs only from sources you trust. These downloads come from the original Convx project and don't include the changes in this repository yet.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Convx is an independent project and is not affiliated with, endorsed by, or connected to YouTube, Google, or their affiliates. Some features use unofficial third-party interfaces that may change or stop working. Users are responsible for following applicable laws and service terms.</p>
+    <p>
+      Licensed under <a href="https://github.com/Ngoni-Sama/Convx/blob/main/LICENSE">GPL-3.0</a> ·
+      <a href="https://github.com/Ngoni-Sama/Convx">Source</a> ·
+      <a href="https://discord.gg/Ejeb4cmzfd">Community</a> ·
+      Maintained by <a href="https://github.com/Ngoni-Sama">Ngoni-Sama</a> ·
+      Based on <a href="https://github.com/cosmictaserdev-creator/Convx">Convx</a> by <a href="https://github.com/cosmictaserdev-creator">Aryan (Cosmic Taser)</a>
+    </p>
+  </footer>
+</body>
+</html>

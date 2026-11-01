@@ -1,0 +1,6 @@
+# Every change is reviewed by the maintainer. Add owners per area as the team grows.
+*                         @Ngoni-Sama
+
+# Release and CI changes
+/.github/                 @Ngoni-Sama
+/version.properties       @Ngoni-Sama
